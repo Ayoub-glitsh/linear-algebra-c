@@ -1,3 +1,16 @@
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=gradient&height=160&section=header&text=Linear%20Algebra%20in%20C&fontSize=40&fontAlignY=35" />
+</p>
+
+
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2500&pause=700&color=0A66C2&center=true&vCenter=true&width=600&lines=Linear+Algebra+in+C;Matrix+Operations+in+C;Educational+Project" />
+</h1>
+
+
+
+
 # 📐 Linear Algebra in C
 
 ## 🧾 Présentation
