@@ -1,74 +1,93 @@
-# 📊 Matrix Operations in C
+# 📐 Linear Algebra in C
 
-## 📝 Description
+## 🧾 Présentation
 
-This project is a **C program** designed to practice fundamental programming concepts such as:
-- Multidimensional arrays (matrices)
-- Loops and conditional statements
-- User input/output
-- Basic mathematical operations on matrices
-
-The program allows the user to manipulate two matrices and perform several operations on them.
+**linear-algebra-c** est un projet écrit en langage **C** qui met en œuvre des opérations fondamentales d’algèbre linéaire sur des matrices.  
+Il a été réalisé dans un objectif **pédagogique**, afin de renforcer la maîtrise des tableaux à deux dimensions, des boucles, et des calculs numériques en C.
 
 ---
 
-## ✨ Features
+## 🎯 Objectifs du projet
 
-- 🔢 Input of two matrices **A** and **B** of size `L x C`
-- ➕ Matrix addition: `S = A + B`
-- ➖ Matrix subtraction: `D = A - B`
-- ✖️ Scalar multiplication of matrix **A** by a real number `k`
-- 📈 Calculation of the total sum of elements for matrices **A**, **B**, **S**, and **D**
-- 🏆 Identification and display of the matrix with the **largest total sum**
+- Comprendre la manipulation des matrices en C
+- Utiliser des tableaux dynamiques dépendant des entrées utilisateur
+- Appliquer des opérations mathématiques simples
+- Comparer des résultats numériques à l’aide de conditions
 
 ---
 
-## 🛠️ Technologies Used
+## ⚙️ Fonctionnalités
 
-- **Language:** C
-- **Libraries:**  
-  - `stdio.h`  
+- Saisie de deux matrices **A** et **B** de taille `L × C`
+- Affichage formaté des matrices
+- Addition de matrices : `S = A + B`
+- Soustraction de matrices : `D = A - B`
+- Multiplication scalaire d’une matrice par un réel `k`
+- Calcul de la somme totale des éléments de chaque matrice
+- Identification et affichage de la matrice ayant la plus grande somme
+
+---
+
+## 🛠️ Technologies utilisées
+
+- **Langage :** C
+- **Bibliothèques :**
+  - `stdio.h`
   - `stdlib.h`
 
 ---
 
-## ▶️ How to Compile and Run
+## ▶️ Compilation et exécution
 
-### Compile
+### Compilation
 ```bash
-gcc main.c -o matrix_operations
+gcc main.c -o linear-algebra
 ```
 
-### Run
+### Exécution
 ```bash
-./matrix_operations
+./linear-algebra
 ```
 
 ---
 
-## 📌 How the Program Works
+## 📊 Déroulement du programme
 
-1. The user enters the number of rows (`L`) and columns (`C`)
-2. The user fills matrices **A** and **B**
-3. The program displays both matrices
-4. It computes and displays:
-   - Sum matrix `S`
-   - Difference matrix `D`
-5. The user enters a real number `k` to multiply matrix **A**
-6. The program calculates the total sum of elements of all matrices
-7. The matrix with the **maximum sum** is displayed
+1. L’utilisateur saisit le nombre de lignes et de colonnes
+2. Les matrices **A** et **B** sont remplies
+3. Les matrices sont affichées à l’écran
+4. Les matrices **S** (somme) et **D** (différence) sont calculées
+5. L’utilisateur entre un réel `k` pour multiplier la matrice **A**
+6. Les sommes totales des matrices sont calculées
+7. La matrice ayant la plus grande somme est affichée
 
 ---
 
-## 🎯 Learning Objectives
+## 📚 Notions abordées
 
-- Understand matrix manipulation in C
-- Practice nested loops
-- Work with floating-point numbers
-- Apply conditional logic to compare results
+- Algèbre linéaire de base
+- Tableaux à deux dimensions
+- Boucles imbriquées
+- Structures conditionnelles
+- Manipulation des nombres réels
 
 ---
 
-## 👤 Author
+## 👨‍💻 Auteur
 
 **Ayoub Aguezar**
+
+---
+
+## 📌 Remarque
+
+Ce projet est destiné à un usage **éducatif** et peut être amélioré en ajoutant :
+- La multiplication de matrices
+- Le calcul du déterminant
+- La gestion des erreurs de saisie
+
+---
+
+## ⭐ Licence
+
+Projet libre à des fins d’apprentissage.
